@@ -3,3 +3,4 @@ export interface IGama {
     descripcion: string;
     imagen:      string;
   }
+  

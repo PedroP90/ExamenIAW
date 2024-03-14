@@ -1,7 +1,7 @@
 import { ILogin, IRespLogin } from "@/interfaces/ILogin";
 import axios from 'axios';
 
-const apiBD = 'http://3.89.177.61:3001/tienda';
+const apiBD = 'http://192.168.8.88/tienda';
 
 const apiAuth = {
 

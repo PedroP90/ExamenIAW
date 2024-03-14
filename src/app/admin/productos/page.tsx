@@ -9,8 +9,7 @@ const ProductosAdminPage = async () => {
 
     return (
         <>
-            {/* <h1>Sección de Productos</h1> */}
-            {/* <AdminTable productos={productos}/> */}
+            <AdminTable productos={productos}/>
         </>
     )
 }

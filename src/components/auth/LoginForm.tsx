@@ -50,10 +50,10 @@ const LoginForm = () => {
             className="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
             <img
               src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-              className="w-full"
+              className=""
               alt="Sample image" />
           </div>
-    
+          
           <div className="mb-12 md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12">
             <form className="space-y-3" 
               onSubmit={ handleSubmit(onLoginUser) } noValidate>

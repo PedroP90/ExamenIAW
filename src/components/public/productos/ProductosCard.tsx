@@ -6,16 +6,16 @@ interface Props {
     producto: IProducto;
 }
 
-export const ProductoCard:FC<Props> = ({producto}) => {
+export const PPGProductoCard:FC<Props> = ({producto}) => {
 
-    const ruta = `http://localhost:3001/img/productos/${producto.imagen}`;
+    const ruta = `http://192.168.8.88:3001/img/productos/${producto.imagen}`;
     
 
   return (
     <Card className="py-4 min-h-72 max-h-72 hover:bg-red-900 hover:text-white">
-        <CardHeader className="pb-0 pt-2 px-4 h-10 flex-col items-start">
-            <h5 className="font-bold text-sm hover:text-red-900">{producto.gama?.nombre}</h5>
-            <h5 className="font-bold text-sm hover:text-red-900">{producto.proveedor}</h5>
+        <CardHeader className="pb-0 pt-2 px-4 h-10 flex justify-between">
+            <h5 className="font-bold text-sm ">{producto.gama?.nombre}</h5>
+            <h5 className="font-bold text-sm ">{producto.proveedor}</h5>
         </CardHeader>
         <CardBody className="group overflow-visible h-48 py-2 flex flex-wrap justify-center items-center relative">
             <Image

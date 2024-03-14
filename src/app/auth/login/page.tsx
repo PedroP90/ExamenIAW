@@ -3,7 +3,7 @@
 import LoginForm from "@/components/auth/LoginForm"
 
 
-const LoginPage = () => {
+const PPGLoginPage = () => {
 
     return (
         <main className="flex items-center justify-center md:h-screen bg-white">
@@ -18,4 +18,4 @@ const LoginPage = () => {
     )
 }
 
-export default LoginPage
+export default PPGLoginPage

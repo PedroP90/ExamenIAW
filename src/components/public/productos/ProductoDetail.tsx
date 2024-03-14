@@ -7,10 +7,10 @@ interface Props {
   producto: IProducto;
 }
 
-export const ProductoDetail:FC<Props> = ({ producto }) => {
+export const PPGProductoDetail:FC<Props> = ({ producto }) => {
 
-    // const ruta = `${producto.imagen}`;
-    const ruta = `http://localhost:3001/img/productos/${producto.imagen}`;
+
+    const ruta = `http://192.168.8.88:3001/img/productos/${producto.imagen}`;
     // console.log(ruta)
     
     return(
